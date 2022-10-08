@@ -15,4 +15,4 @@ First clone this github repository into your computer, then open the file cloned
 ```bash
 git clone https://github.com/ecocaval/Instagram_Driven.git
 ```
-Open the index.html file in your default browser.
+Open the index.html file in your default browser and enjoy the website!

@@ -416,7 +416,7 @@ h2 {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: #FFFFFF; /*delete this after*/
+        background-color: #FFFFFF;
         position: fixed;
         bottom: 0px;
         border: 1px solid #DBDBDB;

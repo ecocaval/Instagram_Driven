@@ -2,24 +2,23 @@
 
 </br>
 
-## ✏️ Descrição
+## ✏️ Description
 <p align="justify" >This project was done in the second week of the Full Stack Driven course. An average of 15 hours were put into the website, the main goals were to train flexbox and media query.  </p>
 
 </br>
 
-##  <p align = "left"> :white_circle: Tecnologias</p>
+##  <p align = "left"> :white_circle: Technologies</p>
 
 - [HTML5](https://reactjs.org/)
-- [CSS3]
+- [CSS3](https://www.w3.org/Style/CSS/)
 
 </br>
 
-# 🏁 Vamos lá 
+# 🏁 Let's go!
 
-Primeiro clone o repositório remoto para o seu computador e abra a pasta criada
+First clone this github repository into your computer, then open the file cloned:
 
 ```bash
 git clone https://github.com/ecocaval/Instagram_Driven.git
 ```
-
-E depois, abra o arquivo index.html no seu navegador padrão.
+Open the index.html file in your default browser.

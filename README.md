@@ -5,7 +5,7 @@
 
 ##  <p align = "left"> :white_circle: Technologies</p>
 
-- [HTML5](https://reactjs.org/)
+- [HTML5](https://html5.org/)
 - [CSS3](https://www.w3.org/Style/CSS/)
 
 # 🏁 Let's go!

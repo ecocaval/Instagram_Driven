@@ -26,29 +26,29 @@ header {
     z-index: 1;
 }
 
-header .left_section_head {
-    display: flex;
-    align-items: center;
-}
-
-header .rigth_section_head ion-icon {
-    margin: 0px 10px;
-}
-
 header img {
     height: 29px;
     width: 103px;
     margin-top: 7px;
 }
 
-header .vertical_division_line {
+.left_section_head {
+    display: flex;
+    align-items: center;
+}
+
+.rigth_section_head ion-icon {
+    margin: 0px 10px;
+}
+
+.vertical_division_line {
     width: 2px;
     height: 22px;
     margin: 0px 10px;
     background-color: #DBDBDB;
 }
 
-header .search_box {
+.search_box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ header .search_box {
     margin-left: 20px;
 }
 
-header .search_box p {
+.search_box p {
     color: #979797;
 }
 
@@ -80,12 +80,12 @@ main {
     margin: 88px 0px 0px 0px;
 }
 
-main .instagram_nav_left {
+.instagram_nav_left {
     margin-right: 300px;
     position: relative;
 }
 
-main .stories_section {
+.stories_section {
     height: 118px;
     width: 614px;
     border-radius: 3px;
@@ -99,7 +99,7 @@ main .stories_section {
     padding-left: 5px;
 }
 
-main .stories  {
+.stories  {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,14 +107,14 @@ main .stories  {
     position: relative;
 }
 
-main .stories .stories_image {
+.stories_image {
     position: absolute;
     top: 5px;
     width: 56px;
     height: 56px;
 }
 
-main .stories p {
+.stories p {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
@@ -150,7 +150,7 @@ main .instagram_posts {
 
 main .instagram_nav_right {
     position: fixed;
-    right: 17%;
+    left: calc(50vw + 180px);
     width: 300px;
     height: 400px;
     background-color: #FAFAFA;
@@ -316,20 +316,18 @@ h2 {
   
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 935px) {
+    main {
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
     main .instagram_nav_right {
         display: none;
     }
 
     main .instagram_nav_left {
         margin-right: 0px;
-    }
-}
-
-@media (max-width: 935px) {
-    main {
-        margin-bottom: 0px;
-        padding: 0px;
     }
 }
 
@@ -352,6 +350,10 @@ h2 {
 
     header .search_box {
         display: none;
+    }
+
+    .rigth_section_head ion-icon {
+        margin: 0px;
     }
 
     header .rigth_section_head .mobile {

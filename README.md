@@ -1,18 +1,12 @@
 # <p align = "center"> Web responsive Instagram</p>
 
-</br>
-
 ## ✏️ Description
 <p align="justify" >This project was done in the second week of the Full Stack Driven course. An average of 15 hours were put into the website, the main goals were to train flexbox and media query.  </p>
-
-</br>
 
 ##  <p align = "left"> :white_circle: Technologies</p>
 
 - [HTML5](https://reactjs.org/)
 - [CSS3](https://www.w3.org/Style/CSS/)
-
-</br>
 
 # 🏁 Let's go!
 

@@ -42,7 +42,7 @@ header img {
 }
 
 .vertical_division_line {
-    width: 2px;
+    width: 1px;
     height: 22px;
     margin: 0px 10px;
     background-color: #DBDBDB;
@@ -141,7 +141,8 @@ main .stories .stories_back {
 }
 
 .stories_button:hover {
-    box-shadow: 0px 0px 10px #000000af;
+    box-shadow: 0px 0px 10px #000000da;
+    transition-duration: 200ms;
 }
 
 main .instagram_posts {
@@ -249,7 +250,6 @@ h2 {
 .post {
     box-sizing: border-box;
     width: 100%;
-    height: 749px;
     border: 1px solid #DBDBDB;
     margin-bottom: 60px;
 }
@@ -304,11 +304,54 @@ h2 {
 .likes img {
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .likes strong {
     font-weight: 700;
+}
+
+.post_division_line {
+    height: 1px;
+    margin-top: 10px;
+    background-color: #dbdbdb8a;
+}
+
+.comment_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 10px 16px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.user_comment:focus, .search_box:focus{
+    outline: none;
+}
+
+.user_comment {
+    height: 28px;
+    width: 215px;
+    background-color: #FAFAFA;
+    border: 0px; 
+    margin-left: 20px;
+}
+
+.publish_comment {
+    font-size: 14px;
+    font-weight: 500;
+    color: #B2DFFC;
+}
+
+.publish_comment:hover {
+    color: #0095F6;
+    transition-duration: 300ms;
 }
 
 .mobile_bottom_section {
@@ -421,5 +464,11 @@ h2 {
         border: 1px solid #DBDBDB;
         box-sizing: border-box;
         z-index: 1;
+    }
+}
+
+@media (max-width: 340px) {
+    .post_division_line, .comment_section {
+        display: none;
     }
 }

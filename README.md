@@ -10,7 +10,7 @@
 
 # 🏁 Let's go!
 
-First clone this github repository into your computer, then open the file cloned:
+First clone this github repository into your computer, then open the folder cloned:
 
 ```bash
 git clone https://github.com/ecocaval/Instagram_Driven.git
